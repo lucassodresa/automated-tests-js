@@ -1,7 +1,6 @@
-import { it } from "@jest/globals";
+import { it, expect } from "@jest/globals";
 
 const sum = (a, b) => {
-  debugger;
   return a + b;
 };
 
